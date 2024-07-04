@@ -7,7 +7,7 @@ function HomeProduct() {
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-xl text-center">
 
-        <h2 class="mt-6 md:mt-4 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+        <h2 class="mt-6 md:mt-4 text-3xl font-bold leading-tight text-blue sm:text-4xl lg:text-3xl">
           Our latest product
         </h2>
         <p class="mt-4 text-base leading-relaxed text-gray-600">

@@ -32,14 +32,7 @@ const Products = () => {
     const Loading = () => {
         return (
             <>
-                {/* <div width="full"
-                    height="100%"
-
-
-                    style={{ width: '100%', height:'100vh',  backgroundColor: 'red' }} className='grid sm:grid-cols-4 gap-2 justify-center'>
-                    <ContentLoader />
-                </div> */}
-                {/* <Loading/> */}
+             
                 <div className='h-[100vh] w-full bg-slate-50 rounded p-5 flex justify-center justify-items-center  '>
 
             <span className='pt-10 loader'></span>
@@ -87,9 +80,7 @@ const Products = () => {
 
                     <button className='px-3  py-1 rounded mt-3 text-cyan-50 bg-slate-900 font-semibold'>
                        <NavLink to={`/products/${product.id}` } >
-                       {
-                        console.log(product.id)
-                       }
+                     
                         Buy now
                         </NavLink>
                         </button>

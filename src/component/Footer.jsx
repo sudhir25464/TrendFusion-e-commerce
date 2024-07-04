@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer class="w-full">
+    <footer class="w-full pb-4">
     <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-2 lg:px-0">
      
       {/* <div class="hidden items-center md:inline-flex">
@@ -18,7 +18,7 @@ function Footer() {
     <hr class="my-8" />
     <div class="mx-auto flex max-w-6xl flex-col items-start space-x-8 md:flex-row">
       <div class="w-full px-4 md:w-1/2 lg:px-0">
-        <h1 class="max-w-sm text-3xl font-bold mb-4">Subscribe to join latest update</h1>
+        <h1 class="max-w-sm text-3xl font-bold text-gray-700 mb-4">Subscribe to join latest update</h1>
         <form action="" class="mt-4 inline-flex w-full items-center md:w-3/4">
           <input
             class="flex h-10 w-full rounded-md border border-black/20 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"

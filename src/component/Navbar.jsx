@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="  bg-slate-100  p-4 sticky  top-0 z-30 ">
       <div className="container mx-w-9xl mx-auto flex justify-between items-center">
-        <div className=" text-slate-900   text-sm sm:text-2xl  font-bold  ">TrendFusion</div>
+        <div className=" text-blue-900   text-sm sm:text-2xl  font-bold  ">TrendFusion</div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className=" text-grey-400 focus:outline-none">
             {isOpen ? (
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'} absolute md:static top-12 left-0 right-0 bg-gray-200 md:bg-transparent`}>
           <Link to="/" className="flex justify-center mt-4 md:mt-0 md:ml-6 text-[black]">Home</Link>
-          <Link to="/products" className="flex justify-center mt-4 md:mt-0 md:ml-6 text-[black]"> Product</Link>
+          <Link to="/product" className="flex justify-center mt-4 md:mt-0 md:ml-6 text-[black]"> Product</Link>
 
           <a to="/" className="flex justify-center mt-4 md:mt-0 md:ml-6 text-[black]">Card</a>
 

@@ -22,16 +22,16 @@ function Home() {
       <div className=' w-full bg-white mx-auto lg-px-8' >
         <div className='max-w-7xl mx-auto'>
           <div className='grid sm:grid-cols-2  justify-center'>
-            <div className=' sm:px-7 h-[300px] sm:h-[400px] md:mt-8 px-4 mt-2 sm:mt-7 mx-2  mb-0 '>
-              <h1 className='mt-8 text-3xl font-bold tracking-tight text-black md:text-3xl lg:text-4xl '>Explore our curated collection of products to elevate your daily life</h1>
+            <div className=' flex-row sm:px-7 h-[240px] sm:h-[400px] md:mt-8 px-4 mt-2 sm:mt-7 mx-2  mb-0 '>
+              <h1 className='mt-8 text-3xl font-bold tracking-tight text-blue-950  md:text-4xl lg:text-5xl text-ellipsis-2 '>Explore our curated collection of products to elevate your daily life</h1>
 
-              <p className='py-2 md:py- md:text-2xl sm:mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, odio?</p>
-              <button className='sm:mt-5 mt-3 bg-orange-400 p-2 px-5'><Link to='product'>SHOP NOW </Link></button>
+              {/* <p className='py-2 md:py- md:text-3xl sm:mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, odio?</p> */}
+              <button className='sm:mt-8 mt-5 bg-orange-400 p-2 px-5'><Link to='product '>SHOP NOW </Link></button>
             </div>
             {/* h-[410px] sm:h-[400px] */}
             <div className=' overflow-hidden items-center justify-center mt-2 sm:mt-2 '>
 
-              <div className=' grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 p-4  justify-center  overflow-x-scroll md:overflow-hidden mx-auto mt-3 gap-2 '>
+              <div className=' grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 p-4  justify-center  overflow-x-scroll md:overflow-hidden mx-auto sm:mt-1 gap-2 '>
 
                 {/* <div className='flex md:flex-rows-3 gap-2 md:gap-4'> */}
                 <div className=' flex justify-center'>
