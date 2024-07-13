@@ -8,6 +8,7 @@ const Products = () => {
     const [data, setData] = useState([]);
     const [filter, setFilter] = useState(data);
     const [loading, setLoading] = useState(false);
+    const [query, setQuery] = useState();
     let componentMounted = true;
 
     useEffect(() => {
@@ -33,9 +34,12 @@ const Products = () => {
         return (
             <>
              
-                <div className='h-[100vh] w-full bg-slate-50 rounded p-5 flex justify-center justify-items-center  '>
+                <div className=' w-full bg-slate-100 rounded p-5  flex  justify-center h-screen  '>
 
-            <span className='pt-10 loader'></span>
+          
+                <span className=' mt-10 loader2 '></span>
+                <h2 className='text-xl font-semi-bold text-green-700 '>Loading...</h2>
+           
 
 </div>
 
@@ -48,12 +52,53 @@ const Products = () => {
         setFilter(updatedList);
     }
 
+ 
+    // const handleSearch = (e) => {
+    //     const value = e.target.value;
+    //     setQuery(value);
+
+    //     const filteredData = data.filter((product) =>
+    //         product.title.toLowerCase().includes(value.toLowerCase())
+    //     );
+
+    //     setFilter(filteredData);
+    // };
+    const handleSearch = (e) => {
+        const value = e.target.value;
+        setQuery(value);
+
+        const filteredData = data.filter((product) =>
+            product.title.toLowerCase().includes(value.toLowerCase())
+        );
+
+        setFilter(filteredData);
+    };
+    
+ 
+
+    // useEffect(()=>{
+    //     const wiat = () =>{
+    //         setTimeout(()=>{
+    //             alert('hii')
+    //         },1000)
+    //     }
+    //   wiat();
+    // },[])
+
+
     const ShowProducts = ()=>{
 
         return(
             <>
+            {/* <div>
+                <input type='text'
+                value={query}
+                onChange={handleSearch}
+                  placeholder='Search product'></input>
+            </div> */}
             <div className="flex flex-col md:flex-row  mt-5 min-h-[700px] ">
 
+            
             <div className="md:w-1/4  sm:h-[100vh]    bg-slate-50 rounded-lg">
 
                 <div className="flex overflow-x-auto   flex-row sm:flex-col justify-left   mx-7 mt-10 mb-5  gap-2 sm:gap-3">
@@ -105,7 +150,7 @@ const Products = () => {
         <>
             <div className='max-w-7xl  mx-auto' >
                     {/* SET scroll images */}
-                <div className=' bg-white  sm:h-[200px] mb-3 sm:px-10 pt-2  '>
+                <div className=' bg-white sm:h-[200px]  sm:px-10  sm:mb-10 mx-auto  md:mb-20 justify-center '>
                     <div><Carousel/></div>
                 </div>
 

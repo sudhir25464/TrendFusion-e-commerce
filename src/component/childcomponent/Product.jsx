@@ -44,9 +44,13 @@ const Product = () => {
   console.log(product)
   
   const Loading = () => {
-    <div className='h-100vh w-[100%] bg-slate-500'>
-      <h1 className='text-[red]'>Loading...</h1>
+ return(
+  <>
+     <div className='flex  p-5 items-center justify-center h-screen '>
+     <span class="loader"></span>
     </div>
+  </>
+ )
   }
 
   const Showproducts = () => {
@@ -77,7 +81,7 @@ const Product = () => {
   return (
     <div>
       <div className=''>
-        { loading ? <Loading /> : <Showproducts />}
+        {loading ? <Loading /> : <Showproducts />}
 
       </div>
     </div>
