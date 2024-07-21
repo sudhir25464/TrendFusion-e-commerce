@@ -27,7 +27,7 @@ function HomeProduct() {
   }, []);
 
   const Alert = () => (
-    <div className="fixed inset-0 flex items-center justify-center md:py-20  z-50">
+    <div className="fixed inset-0 flex items-center justify-center md:py-20  z-50 ">
      
       <div className="relative bg-white p-6 rounded-lg shadow-lg max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-4xl mx-auto">
         <button
@@ -64,7 +64,7 @@ function HomeProduct() {
   return (
     <div className="mx-auto max-w-7xl px-4">
       {showAlert && <Alert />}
-      <div className="mx-auto max-w-7xl p-5 sm:p-10 md:p-20 text-center bg-blue-950 rounded mt-2">
+      <div className="mx-auto max-w-7xl p-5 sm:p-10 md:p-20 text-center bg-orange-300 rounded mt-2">
         <h2 className="mt-6 md:mt-4 text-3xl font-bold leading-tight text-blue sm:text-4xl lg:text-3xl text-white">
           Our Latest Products
         </h2>

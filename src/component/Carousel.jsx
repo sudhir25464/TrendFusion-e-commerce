@@ -1,10 +1,23 @@
 import React, { useState } from 'react';
+import img1 from '../assets/images/tv.jpg';
+import homeCard3 from '../assets/images/smartwatches.jpg';
+import img3 from '../assets/images/musics.jpg';
+import img4 from '../assets/images/people.jpg';
+import LeftArrow from '../assets/images/chevron-left.svg'
+import RightArrow from '../assets/images/chevron-right.svg'
+
+
 
 
 const images = [
-  'https://via.placeholder.com/600x400?text=Image+1',
-  'https://via.placeholder.com/600x400?text=Image+2',
-  'https://via.placeholder.com/600x400?text=Image+3'
+  homeCard3,
+  img1,
+ 
+  img3,
+  img4,
+  // 'https://via.placeholder.com/600x400?text=Image+1,
+  // 'https://via.placeholder.com/600x400?text=Image+2',
+  // 'https://via.placeholder.com/600x400?text=Image+3'
 ];
 
 const Carousel = () => {
@@ -38,13 +51,13 @@ const Carousel = () => {
         onClick={handlePrev}
         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
       >
-        Prev
+        <img src={LeftArrow}></img>
       </button>
       <button
         onClick={handleNext}
         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full"
       >
-        Next
+        <img src={RightArrow}></img>
       </button>
     </div>
   );

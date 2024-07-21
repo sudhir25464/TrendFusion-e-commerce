@@ -1,4 +1,5 @@
 import React from 'react';
+import Busness from '../../assets/images/shoppingbag.jpg';
 
 function Card2x() {
   return (
@@ -48,7 +49,7 @@ function Card2x() {
         <div className="flex lg:col-span-5 lg:-mr-8 xl:col-span-6 justify-center justify-items-center md:mt-16 p-2">
           <img
             className="aspect-[3/2] bg-gray-50 object-cover lg:aspect-[4/3] lg:h-[500px] xl:aspect-[16/9]"
-            src="https://images.pexels.com/photos/715688/pexels-photo-715688.jpeg?cs=srgb&dl=pexels-burst-715688.jpg&fm=jpg"
+          src={Busness}
             alt="E-commerce business growth"
           />
         </div>

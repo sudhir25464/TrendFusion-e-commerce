@@ -6,9 +6,9 @@ function ServiceDetails() {
       
     
     <div className='flex max-w-7xl  mx-auto justify-center justify-items-center mb-4 '>
-      <div class=" mt-12 sm:px-3 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
-        <div>
-          <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
+      <div class=" mt-1   sm:px-3 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
+        <div className='alert-card  py-5 px-2'>
+          <div class="mx-auto flex h-20 w-20  items-center justify-center rounded-full bg-gray-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -31,7 +31,7 @@ function ServiceDetails() {
             sint. Velit officia consequat duis enim velit mollit.
           </p>
         </div>
-        <div>
+        <div className='alert-card  py-5 px-2'>
           <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ function ServiceDetails() {
             sint. Velit officia consequat duis enim velit mollit.
           </p>
         </div>
-        <div>
+        <div className='alert-card  py-5 px-2'>
           <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ function ServiceDetails() {
             sint. Velit officia consequat duis enim velit mollit.
           </p>
         </div>
-        <div>
+        <div className='alert-card  py-5 px-2'>
           <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"

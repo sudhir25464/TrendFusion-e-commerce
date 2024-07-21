@@ -11,6 +11,9 @@ import { Routes,Route } from 'react-router-dom'
 import Product from './component/childcomponent/Product'
 import Products from './component/childcomponent/Products'
 import { useLocation } from'react-router-dom';
+import CreateContexts from './context/CreateContexts'
+import ThemeContext from './context/ThemeContext'
+import Cardlist from './component/childcomponent/Cardlist'
 function App() {
 
 
@@ -26,7 +29,8 @@ function App() {
 
   return (
     <>
-    
+  
+  <ThemeContext>
      <Navbar/>
      <ScrollToTop />
     <Routes>
@@ -34,8 +38,11 @@ function App() {
       <Route path="/"element={ <Home/>}/>
       <Route path="/product" element={<Products/>} />
         <Route path="/products/:id"  element={<Product/>}/>
+        <Route path="/youritem"  element={<Cardlist/>}/>
+
     </Routes>
     <Footer/>
+    </ ThemeContext>
 
 
  </>
