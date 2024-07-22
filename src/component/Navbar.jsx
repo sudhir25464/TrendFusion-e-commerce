@@ -50,7 +50,7 @@ const Navbar = () => {
             >
                 Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
             </button> */}
-        <div className={`md:flex md:items-center  ${isOpen ? 'block' : 'hidden'} absolute md:static top-12 left-0 right-0 bg-gray-200 md:bg-transparent `}>
+        <div className={`md:flex md:items-center  ${isOpen ? 'block' : 'hidden'} absolute md:static top-12 left-0 font-semibold right-0 bg-gray-200 md:bg-transparent `}>
           <NavLink 
             to="/" 
             exact 
@@ -77,7 +77,7 @@ const Navbar = () => {
             } 
             onClick={closeMenu}
           >
-            Card ({state.length})
+            Your cart {state.length}
           </NavLink>
         </div>
       </div>

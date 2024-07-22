@@ -27,8 +27,7 @@ function ServiceDetails() {
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Secured Payments</h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          Experience peace of mind with our secured payment options, ensuring your transactions are safe and protected. Shop confidently with robust encryption and fraud prevention measures.
           </p>
         </div>
         <div className='alert-card  py-5 px-2'>
@@ -52,8 +51,7 @@ function ServiceDetails() {
             Fast &amp; Easy to Load
           </h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          Quickly refine your search with our lightning-fast filter blocks, ensuring you find exactly what you need in no time
           </p>
         </div>
         <div className='alert-card  py-5 px-2'>
@@ -77,8 +75,7 @@ function ServiceDetails() {
             Light &amp; Dark Version
           </h3>
           <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          Effortlessly refine your search with our dynamic filter blocks, ensuring you find exactly what you need. Enjoy a seamless and efficient shopping experience
           </p>
         </div>
         <div className='alert-card  py-5 px-2'>
@@ -99,9 +96,8 @@ function ServiceDetails() {
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Filter Blocks</h3>
-          <p class="mt-4 text-sm text-gray-600">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
+          <p class="mt-4 text-sm text-gray-600 h-40">
+          Discover and shop with ease using our dynamic filter blocks, designed to refine your search and find exactly what you're looking for. Enjoy a seamless browsing experience with real-time updates and precise results tailored to your preferences.
           </p>
         </div>
       </div> 

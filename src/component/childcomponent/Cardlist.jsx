@@ -20,6 +20,8 @@ const Cardlist = () => {
   };
 
   const handleCheckoutFromCart = (product) => {
+    dispatch(removeTocart(product));
+    alert("Order successfully");
   }
   useEffect(() => {
     // Get previous cart items from the ref
@@ -47,7 +49,7 @@ const Cardlist = () => {
               <Skeleton height={200}/>
               {/* </div> */}
               <div className='p-2'>
-             
+             <h4 className='text-2xl font-semibold'>Your are store is Empty!</h4>
              <Skeleton height={40}/>
              <Skeleton height={50}/>
              <Skeleton height={100}/>
